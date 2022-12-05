@@ -5,40 +5,278 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@556&family=Poppins&display=swap" rel="stylesheet">
+  
     <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./New folder/icofont.css">
+    
+
+  
     <title>Document</title>
 </head>
 <body>
   <section class="navsection">
     <div class="container">
         <div class="overallnav">
-            <h1>PORT<span>FOLIO</span></h1>
-        <div class="list">
-            <ul>
-                <li><a href="">Home</a></li>
-                <li><a href="">About</a></li>
-                <li><a href="">Project</a></li>
-                <li><a href="">Skills</a></li>
-                <li><a href="">Contact</a></li>
-                
-            </ul>
-        </div>
+            <h1>PORT<span class="logo">FOLIO</span></h1>
+            <div class="list">
+                <ul id="navsection" class="ul">
+                    <li><a href="">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#skils">Skills</a></li>
+                    <li><a href="">Project</a></li>
+                    <li><a href="">Contact</a></li>
+                </ul>
+                <i id="menu" onclick="sakthi()" class="icofont-navigation-menu menu"></i>
+            </div>
     </div>
 </div>
   </section>
 
   <section class="banner">
     <div class="bannerimg">
-        <img src="./images/Untitled-2.jpg" alt="">
+        <img class="img" src="./images/new 1.jpg" alt="">
+        <img class="img2" src="./images/gray.jpg" alt="">
       
     </div>
+    <div class="background">
     <div class="up">
-        <h1>I'm Sakthi</h1>
+        <h3>Hello  <span class="line"></span></h3>
+        <h1 class="name">I AM SAKTHI</h1>
         <h2 id="typing">Frontend <span id="span">Developer</span></h2>
-        <!-- <h2 id="typing"></h2> -->
+        <button><a href="">Get CV</a></button>         
+        
+        
+
     </div>
+</div>
     </div>
   </section>
-  <script src="./main.js"></script>
+
+
+  <!-- About section -->
+  <section id="about" class="about">
+    <div class="container">
+        <h1>Ab<span>out</span></h1>
+        <div class="overall">
+                
+
+            <div class="part-1">
+                <img src="./images/IMG_9246.jpg" alt="">
+            </div>
+            <div class="part-2">
+               <div class="detail">
+                <p><strong>Name :</strong> Sakthi</p>
+                <p><strong>Email :</strong><a href="mailto:sakthimuthuselvan@gmailcom">sakthimuthuselvan@gmail.com</a></p>
+                <p><strong>profile :</strong>Frontend Developer</p>
+               </div>
+               
+                <div class="intro">
+                <p>I am an enthusiastic, self-motivated, reliable, responsible. I am a mature team worker and adaptable to all challenging situations. I am able to work well both in a team environment as well as using own initiative.</p>   
+               </div>
+               
+            </div>
+
+        </div>
+    </div>
+  </section>
+
+  <section id="skils" class="skills">
+    <div class="container">
+        <h1>Ski<span>lls</span></h1>
+
+    <div class="overallskill">
+        <div class="box">
+            <div class="boxcontent">
+               <div class="logo">
+                 <img src="./images/logo/html.png" alt="">
+                </div>
+               <p>
+                HTML is the code that is used to structure a web page and its content. For example, content could be structured within a set of paragraphs, a list of bulleted points, or using images and data tables </p>
+            </div>
+        </div>
+        <div class="box">
+            <div class="boxcontent">
+                <div class="logo">
+                  <img src="./images/logo/css.png" alt="">
+                 </div>
+                <p>
+              
+  the style of fonts, the spacing between paragraphs, how columns are sized and laid out, etc. CSS saves time  You can write CSS once and then reuse the same sheet in multiple HTML pages. </p>
+             </div>
+        </div>
+        <div class="box">
+            <div class="boxcontent">
+                <div class="logo">
+                  <img src="./images/logo/js.png" alt="">
+                 </div>
+                <p>
+                    Technical analysis and time estimates. Architect and build web based solutions based on client needs. Setup initial project structure and dependencies. Setup specific workflows - formatting and linting rules etc. </p>
+             </div>
+        </div>
+        <div class="box">
+            <div class="boxcontent">
+                <div class="logo">
+                  <img src="./images/logo/bootstrip.jpg" alt="">
+                 </div>
+                <p>
+                    Bootstrap is a giant collection of handy, reusable bits of code written in HTML, CSS, and JavaScript. It's also a frontend development framework that enables developers and designers to quickly build fully responsive websites. </p>
+             </div>
+        </div>
+        <div class="box">
+            <div class="boxcontent">
+                <div class="logo">
+                  <img src="./images/logo/react.png" alt="">
+                 </div>
+                <p>
+                 I know react conteaxt and  redux method. i have completed react using conteaxt method  like add to cart and pagination like this tasks. i have basic and working knowledge of JavaScript + ES6, HTML, CSS, JSX, Git, Node + npm, and Redux.</p>
+             </div>
+        </div>
+        <div class="box">
+            <div class="boxcontent">
+                <div class="logo">
+                  <img src="./images/logo/git.png" alt="">
+                 </div>
+                <p>
+      Git has been widely considered a useful and practical tool among developers. In fact, Git has been instrumental in shaping modern development processes and fostering open-source project contributions. </p>
+             </div>
+        </div>
+    </div>        
+    </div>
+
+  </section>
+
+  <section class="myskill">
+    <h1>About <span>My</span> Skills</h1>
+    <div class="container">
+        <div class="part-1">
+            <div>
+                <label for="">HTML</label><br>
+                <progress value="100" max="100"></progress><br>
+            </div>
+            <div>
+                <label for="">CSS</label><br>
+                <progress value="95" max="100"></progress><br>
+            </div>
+            <div>
+                <label for="">JAVASCRIPT</label><br>
+                <progress value="80" max="100"></progress><br>
+            </div>
+            <div>
+                <label for="">REACT JS</label><br>
+                <progress value="70" max="100"></progress><br>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- project section -->
+<section class="headproject">
+    <h1>Proj<span>ects</span></h1>
+
+<section class="project">
+    <div class="container">
+
+    
+        <div class="overallproject">
+            <div class="projectbox">
+            
+            <div class="img">
+          
+                <img src="./images/project/ninestar.png" alt="">
+            </div>
+            <div class="btn">
+                <h4>Html,Css</h4>
+                <button>click</button>
+             </div>
+        </div>
+
+
+
+        <!-- <div class="projectbox">
+     
+        <div class="img">
+      
+            <img src="./images/project/ninestar.png" alt="">
+        </div>
+        <div class="btn">
+            <h4>Bootstrap</h4>
+            <button>click</button>
+         </div>
+    </div> -->
+
+
+
+    <div class="projectbox">
+
+    <div class="img">
+       
+        <img src="./images/project/add to task.png" alt="">
+    </div>
+    <div class="btn">
+        <h4>React add to cart</h4>
+        <button>click</button>
+     </div>
+</div>
+            
+
+
+                <div class="projectbox">
+                   
+                <div class="img">
+                
+                    <img src="./images/project/api.png" alt="">
+                </div>
+                <div class="btn">
+                    <h4>React API use</h4>
+                    <button>click</button>
+                 </div>
+            </div>
+        </div>
+    </div>
+</section>
+</section>
+ 
+            <!-- contact scetion -->
+
+<section class="contact">
+    <div class="container">
+        <h1>con<span>tact</span></h1>
+   <div class="overallcontact">
+    <div>
+        <div>
+            <img class="location" src="./images/contact/location.jpg" alt="">
+        </div>
+         <p>NO 234 , Anna nagar ,<br> tenkasi <br>
+            tamilnadu.
+        </p>
+       
+    </div>
+    <div>
+        <div>
+            <img class="s" src="./images/contact/logo.png" alt="">
+        
+        </div>
+        <p><a href="mail to=sakthimuthuselvan@gmail.com"> sakthimuthuselvan@gmail.com</a></p>
+    </div>
+    <div>
+        <div>
+            <img class="s" src="./images/contact/phone.png" alt="">
+        </div>
+        <p><a href="calln to=6382907672">ph : 6382907672</a></p>   
+        </div>
+       
+   </div>     
+    </div>
+</section>
+         
+<section class="footer">
+    <div class="container">
+        <div class="footeroverall">
+            <p>@ Designed By  <strong>Sakthi</strong></p>
+        </div>
+    </div>
+</section>
+
 </body>
+<script src="./main.js"></script>
 </html>
