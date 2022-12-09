@@ -16,6 +16,7 @@ body{
     z-index: 100;
     background-color: white;
     overflow: hidden;
+    padding: 1.5rem 0;
     /* margin-bottom: 4rem; */
 }
 .container{
@@ -129,7 +130,7 @@ ul li{
 
     /* banner section */
     .banner{
-       
+       margin: 8rem 0;
     }
     .bannerimg{
 
@@ -164,7 +165,7 @@ ul li{
         position: absolute;
         /* top: 272px;
         left: 100px; */
-        top: 15rem;
+        top: 22rem;
         left: 7rem;
     
     }
@@ -321,7 +322,7 @@ ul li{
 
     /* about section */
 .about{
-    margin: 4rem 0;
+    margin: 8rem 0;
     /* padding-bottom: 6rem;
     padding-top: 5rem; */
 }
@@ -381,6 +382,9 @@ ul li{
     }
 }
 @media(min-width:950px){
+    .about{
+        margin: 8rem 0;
+    }
     .overall{
         width: 100%;
         display: flex;
@@ -405,7 +409,7 @@ ul li{
 
 /* skills section */
 .skills{
-
+margin: 8rem 0;
 }
  
 .skills h1{
@@ -550,8 +554,6 @@ font-size: 4rem;
   .myskill h1{
     font-size: 4rem;
     text-align: center;
-    padding-top: 50px;
-
   }
   .myskill h1 span{
     color: #F45C43;
@@ -575,10 +577,14 @@ font-size: 4rem;
 }
 
 /* project */
+.headproject{
+    margin: 8rem 0;
+}
 .project{
     background:linear-gradient(to right,#141e30,#243b55) ;
     padding: 10% 0;
     margin-bottom: 5rem;
+   
 }
 .headproject h1{
     font-size: 4rem;
@@ -600,7 +606,7 @@ h1>span{
     
     width: 100%;
     /* height: 70%; */
-    height: 255px;
+    height: 270px;
     margin-top: 3rem;
     background-color:white;
     border-radius: 10px;
@@ -620,7 +626,7 @@ h1>span{
 .overallproject >.projectbox:hover{
     transform: translateY(-30px);
     box-shadow: 0 0 10px 0 white;
-    transition: all ease 0.5s;
+    transition:  0.3s;
 }
 .btn{
     display: flex;

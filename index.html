@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@556&family=Poppins&display=swap" rel="stylesheet">
-  
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="./style.css">
     <link rel="stylesheet" href="./New folder/icofont.css">
     
@@ -23,8 +23,8 @@
                     <li><a href="">Home</a></li>
                     <li><a href="#about">About</a></li>
                     <li><a href="#skils">Skills</a></li>
-                    <li><a href="">Project</a></li>
-                    <li><a href="">Contact</a></li>
+                    <li><a href="#project">Project</a></li>
+                    <li><a href="#contact">Contact</a></li>
                 </ul>
                 <i id="menu" onclick="sakthi()" class="icofont-navigation-menu menu"></i>
             </div>
@@ -60,10 +60,10 @@
         <div class="overall">
                 
 
-            <div class="part-1">
+            <div data-aos="fade-up"  data-aos-delay="400" class="part-1">
                 <img src="./images/IMG_9246.jpg" alt="">
             </div>
-            <div class="part-2">
+            <div  data-aos="fade-up"  data-aos-delay="600"  class="part-2">
                <div class="detail">
                 <p><strong>Name :</strong> Sakthi</p>
                 <p><strong>Email :</strong><a href="mailto:sakthimuthuselvan@gmailcom">sakthimuthuselvan@gmail.com</a></p>
@@ -85,7 +85,7 @@
         <h1>Ski<span>lls</span></h1>
 
     <div class="overallskill">
-        <div class="box">
+        <div  data-aos="fade-up"  data-aos-delay="400"  class="box">
             <div class="boxcontent">
                <div class="logo">
                  <img src="./images/logo/html.png" alt="">
@@ -94,7 +94,7 @@
                 HTML is the code that is used to structure a web page and its content. For example, content could be structured within a set of paragraphs, a list of bulleted points, or using images and data tables </p>
             </div>
         </div>
-        <div class="box">
+        <div  data-aos="fade-up"  data-aos-delay="600"  class="box">
             <div class="boxcontent">
                 <div class="logo">
                   <img src="./images/logo/css.png" alt="">
@@ -104,7 +104,7 @@
   the style of fonts, the spacing between paragraphs, how columns are sized and laid out, etc. CSS saves time  You can write CSS once and then reuse the same sheet in multiple HTML pages. </p>
              </div>
         </div>
-        <div class="box">
+        <div  data-aos="fade-up"  data-aos-delay="800"  class="box">
             <div class="boxcontent">
                 <div class="logo">
                   <img src="./images/logo/js.png" alt="">
@@ -113,7 +113,7 @@
                     Technical analysis and time estimates. Architect and build web based solutions based on client needs. Setup initial project structure and dependencies. Setup specific workflows - formatting and linting rules etc. </p>
              </div>
         </div>
-        <div class="box">
+        <div  data-aos="fade-up"  data-aos-delay="1200"  class="box">
             <div class="boxcontent">
                 <div class="logo">
                   <img src="./images/logo/bootstrip.jpg" alt="">
@@ -122,7 +122,7 @@
                     Bootstrap is a giant collection of handy, reusable bits of code written in HTML, CSS, and JavaScript. It's also a frontend development framework that enables developers and designers to quickly build fully responsive websites. </p>
              </div>
         </div>
-        <div class="box">
+        <div  data-aos="fade-up"  data-aos-delay="1400"  class="box">
             <div class="boxcontent">
                 <div class="logo">
                   <img src="./images/logo/react.png" alt="">
@@ -131,7 +131,7 @@
                  I know react conteaxt and  redux method. i have completed react using conteaxt method  like add to cart and pagination like this tasks. i have basic and working knowledge of JavaScript + ES6, HTML, CSS, JSX, Git, Node + npm, and Redux.</p>
              </div>
         </div>
-        <div class="box">
+        <div  data-aos="fade-up"  data-aos-delay="1600"  class="box">
             <div class="boxcontent">
                 <div class="logo">
                   <img src="./images/logo/git.png" alt="">
@@ -149,19 +149,19 @@
     <h1>About <span>My</span> Skills</h1>
     <div class="container">
         <div class="part-1">
-            <div>
+            <div  data-aos="fade-up"  data-aos-delay="400" >
                 <label for="">HTML</label><br>
                 <progress value="100" max="100"></progress><br>
             </div>
-            <div>
+            <div  data-aos="fade-up"  data-aos-delay="500" >
                 <label for="">CSS</label><br>
                 <progress value="95" max="100"></progress><br>
             </div>
-            <div>
+            <div  data-aos="fade-up"  data-aos-delay="600" >
                 <label for="">JAVASCRIPT</label><br>
                 <progress value="80" max="100"></progress><br>
             </div>
-            <div>
+            <div  data-aos="fade-up"  data-aos-delay="700" >
                 <label for="">REACT JS</label><br>
                 <progress value="70" max="100"></progress><br>
             </div>
@@ -170,7 +170,7 @@
 </section>
 
 <!-- project section -->
-<section class="headproject">
+<section id="project" class="headproject">
     <h1>Proj<span>ects</span></h1>
 
 <section class="project">
@@ -178,25 +178,25 @@
 
     
         <div class="overallproject">
-            <div class="projectbox">
+            <div  data-aos="zoom-in" data-aos-delay="400" class="projectbox">
             
             <div class="img">
           
-                <img src="./images/project/ninestar.png" alt="">
+                <img src="./images/project/imperial.png" alt="">
             </div>
             <div class="btn">
-                <h4>Html,Css</h4>
-                <button>click</button>
+                <h4>Bootstrap</h4>
+               <button> <a href="https://sakthimuthuselvan.github.io/business-webpage/" target="_blank">click</a></button>
              </div>
         </div>
 
 
-
-        <!-- <div class="projectbox">
+<!-- 
+        <div  data-aos="zoom-in" data-aos-delay="500" class="projectbox">
      
         <div class="img">
       
-            <img src="./images/project/ninestar.png" alt="">
+            <img src="./images/project/imperial.png" alt="">
         </div>
         <div class="btn">
             <h4>Bootstrap</h4>
@@ -206,7 +206,7 @@
 
 
 
-    <div class="projectbox">
+    <div  data-aos="zoom-in" data-aos-delay="550" class="projectbox">
 
     <div class="img">
        
@@ -214,13 +214,13 @@
     </div>
     <div class="btn">
         <h4>React add to cart</h4>
-        <button>click</button>
+       <button><a href="#" target="_blank">click</a></button>
      </div>
 </div>
             
 
 
-                <div class="projectbox">
+                <div  data-aos="zoom-in" data-aos-delay="650" class="projectbox">
                    
                 <div class="img">
                 
@@ -228,7 +228,7 @@
                 </div>
                 <div class="btn">
                     <h4>React API use</h4>
-                    <button>click</button>
+                <button><a href="#" target="_blank">click</a></button>
                  </div>
             </div>
         </div>
@@ -238,11 +238,11 @@
  
             <!-- contact scetion -->
 
-<section class="contact">
+<section id="contact" class="contact">
     <div class="container">
         <h1>con<span>tact</span></h1>
    <div class="overallcontact">
-    <div>
+    <div  data-aos="fade-up" data-aos-delay="500">
         <div>
             <img class="location" src="./images/contact/location.jpg" alt="">
         </div>
@@ -251,14 +251,14 @@
         </p>
        
     </div>
-    <div>
+    <div  data-aos="fade-up" data-aos-delay="700">
         <div>
             <img class="s" src="./images/contact/logo.png" alt="">
         
         </div>
         <p><a href="mail to=sakthimuthuselvan@gmail.com"> sakthimuthuselvan@gmail.com</a></p>
     </div>
-    <div>
+    <div  data-aos="fade-up" data-aos-delay="900">
         <div>
             <img class="s" src="./images/contact/phone.png" alt="">
         </div>
@@ -278,5 +278,9 @@
 </section>
 
 </body>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+    AOS.init();
+  </script>
 <script src="./main.js"></script>
 </html>
